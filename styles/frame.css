@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #20639B;
+    background-color: #F6D55C;
+    padding: 10px;
+    margin: 0;
+    border-radius: 20px;
+    font-family: Roboto;
+    font-size: 70px;
+    box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 10px inset
+}
+
+#username {
+    display: flex;
+}
+
+#frame2 {
+    background-color: #F6D55C;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 10px inset
+}
+
+#textarea-style {
+    border-radius: 20px;
+    background-color: #3CAEA3;
+    border-color: #3CAEA3;
+    width: 100%;
+    font-size: 36px;
+    text-indent: 8px;
+    color: #F6D55C;
+    box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 10px inset
+}
+
+#input-style {
+    background-color: #3CAEA3;
+    border-color: #3CAEA3;
+    border-radius: 20px;
+    font-size: 36px;
+    color: #F6D55C;
+    box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 10px inset
+}
+
+.button-font {
+    color: #F6D55C;
+    background-color: #20639B;
+    margin: 0;
+    border-radius: 20px;
+    text-align: center;
+    min-width: 120px;
+    padding: 10px;
+    font-size: 36px;
+    box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 10px inset
+}
+
+#section-style {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-font {
+    color: #F6D55C;
+    background-color: #20639B;
+    margin: 0;
+    border-radius: 20px;
+    text-align: center;
+    min-width: 120px;
+    padding: 10px;
+    font-size: 36px;
+    box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 10px inset
+}

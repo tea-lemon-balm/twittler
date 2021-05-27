@@ -1,17 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8" />
   <title>twittler</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="./styles/timline.css" />
+  <link rel="stylesheet" href="./styles/frame.css">
   <script src="data.js"></script>
 </head>
+
 <body>
-  <!-- 여기에 HTML 구조를 작성하세요. 아래 코드는 예제이며, 얼마든지 바꿀 수 있습니다 -->
-  <div id="greeting">twittler</div>
-  <div id="test"></div>
+  <h1 name="frame1">twittler</h1>
+
+  <div id="frame2" name="frame2">
+    <div id="username">
+      <p class="text-font">Username</p>
+      <input id="input-style" type="text">
+    </div>
+    <section id="section-style">
+      <div>
+        <p class="text-font">Comment</p>
+      </div>
+      <button class="button-font">
+        Submit
+      </button>
+    </section>
+    <textarea id="textarea-style" rows="4"></textarea>
+  </div>
+  <section>
+    <!-- screen reader -->
+    <h1 class="sr-only">
+      Timeline
+    </h1>
+    <article class="tweet">
+      <h1 class="sr-only">
+        Tweet from ElleryVernon
+      </h1>
+      <img src="./images/profile.jpg" alt="author image" class="tweet__author-image">
+      <div class="tweet__container">
+        <header class="tweet__header">
+          <span class="tweet__author-name" aria-label="author name">
+            ElleryVernon
+          </span>
+          <span class="tweet__author-slug" aria-label="author slug">
+            @ElleryVernon
+          </span>
+          <span class="tweet__publish-time" aria-label="publish time">
+            · May 27
+          </span>
+        </header>
+        <main class="tweeet__content" aria-label="tweet content">
+          I think JavaScript is very fun to me.<br>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">https://developermozilla.org/en-US/docs/Web/JavaScript</a>
+          <br>
+          <img src="./images/image.png" alt="content image" class="tweet__image">
+        </main>
+      </div>
+    </article>
+
+    <article class="tweet">
+      <h1 class="sr-only">
+        Tweet from ElleryVernon
+      </h1>
+      <img src="./images/profile.jpg" alt="author image" class="tweet__author-image">
+      <div class="tweet__container">
+        <header class="tweet__header">
+          <span class="tweet__author-name" aria-label="author name">
+            ElleryVernon
+          </span>
+          <span class="tweet__author-slug" aria-label="author slug">
+            @ElleryVernon
+          </span>
+          <span class="tweet__publish-time" aria-label="publish time">
+            · May 26
+          </span>
+        </header>
+        <main class="tweeet__content" aria-label="tweet content">
+          I think pygma is too difficult for me. It's very, very difficult.
+        </main>
+      </div>
+    </article>
+
+    <article class="tweet">
+      <h1 class="sr-only">
+        Tweet from ElleryVernon
+      </h1>
+      <img src="./images/profile.jpg" alt="author image" class="tweet__author-image">
+      <div class="tweet__container">
+        <header class="tweet__header">
+          <span class="tweet__author-name" aria-label="author name">
+            ElleryVernon
+          </span>
+          <span class="tweet__author-slug" aria-label="author slug">
+            @ElleryVernon
+          </span>
+          <span class="tweet__publish-time" aria-label="publish time">
+            · May 25
+          </span>
+        </header>
+        <main class="tweeet__content" aria-label="tweet content">
+          Hello, Everyone! Nice to meet you
+        </main>
+      </div>
+    </article>
+
+  </section>
 
   <script src="script.js"></script>
 </body>
+
 </html>
